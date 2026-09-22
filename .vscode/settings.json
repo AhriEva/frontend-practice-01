@@ -7,6 +7,6 @@
   "editor.detectIndentation": false,
   "editor.wordWrap": "on",
   "editor.renderWhitespace": "selection",
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Dark Modern",
   "workbench.iconTheme": "material-icon-theme"
 }
