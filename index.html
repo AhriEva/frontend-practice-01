@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Учебное портфолио Матвея Потапова - начинающего фронтенд-разработчика."
+    />
+    <title>Матвей Потапов - начинающий frontend-разработчик</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="logo" href="#top" aria-label="Вернуться в начало страницы">
+          <span class="logo-mark">MP</span>
+          <span>portfolio</span>
+        </a>
+
+        <nav class="navigation" aria-label="Основная навигация">
+          <a href="#about">Обо мне</a>
+          <a href="#skills">Навыки</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Студент ИКБО-13-25 · начинающий разработчик</p>
+            <h1 id="hero-title">Матвей Потапов</h1>
+            <p class="hero-description">
+              Изучаю фронтенд-разработку и создаю понятные цифровые интерфейсы.
+              Сейчас осваиваю HTML, CSS, Git и современные инструменты веб-разработки.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Посмотреть проекты</a>
+              <a class="button button-secondary" href="#contacts">Связаться со мной</a>
+            </div>
+          </div>
+
+          <div class="avatar-frame">
+            <img
+              class="avatar"
+              src="images/avatar.png"
+              alt="Иллюстрация студента-разработчика за ноутбуком"
+              width="520"
+              height="520"
+            />
+            <span class="status-badge">Открыт к новым знаниям</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container narrow-container">
+          <p class="section-label">01 / Обо мне</p>
+          <h2 id="about-title">Развиваюсь через практику</h2>
+          <p class="lead">
+            Я студент, который делает первые уверенные шаги во фронтенд-разработке.
+            Мне интересно превращать идеи в аккуратные страницы, разбираться в структуре
+            интерфейсов и постепенно улучшать качество своего кода.
+          </p>
+          <p>
+            В работе ценю понятность, внимание к деталям и возможность увидеть реальный
+            результат в браузере. Каждая практика для меня - небольшой законченный проект.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <p class="section-label">02 / Навыки</p>
+          <h2 id="skills-title">Что я уже использую</h2>
+
+          <ul class="skills-list" aria-label="Навыки и инструменты">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Live Server</li>
+            <li>DevTools</li>
+            <li>UI-дизайн</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">03 / Проекты</p>
+              <h2 id="projects-title">Учебные работы</h2>
+            </div>
+            <p>
+              Проекты, на которых я осваиваю рабочее окружение, семантический HTML и CSS.
+            </p>
+          </div>
+
+          <div class="projects">
+            <article class="project-card">
+              <p class="project-number">01</p>
+              <h3>Настройка рабочего окружения</h3>
+              <p>
+                Установка VS Code, Git и расширений, настройка редактора и первые коммиты.
+              </p>
+              <a
+                href="https://github.com/AhriEva/frontend-practice-01"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Открыть репозиторий <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <article class="project-card featured-card">
+              <p class="project-number">02</p>
+              <h3>Персональная страница</h3>
+              <p>
+                Адаптивная страница-визитка с семантической HTML-структурой и отдельным
+                CSS-файлом.
+              </p>
+              <a href="#top">Посмотреть страницу <span aria-hidden="true">↑</span></a>
+            </article>
+
+            <article class="project-card">
+              <p class="project-number">03</p>
+              <h3>Следующий проект</h3>
+              <p>
+                Следующим шагом станет интерактивный интерфейс с использованием JavaScript.
+              </p>
+              <a href="#contacts">Предложить идею <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contacts" aria-labelledby="contacts-title">
+        <div class="container contact-layout">
+          <div>
+            <p class="section-label">04 / Контакты</p>
+            <h2 id="contacts-title">Давайте быть на связи</h2>
+            <p>
+              Быстрее всего меня можно найти на GitHub. Там опубликованы учебные проекты и
+              история их развития.
+            </p>
+          </div>
+
+          <ul class="contacts-list">
+            <li>
+              <span>Email</span>
+              <a href="mailto:AhriEva@users.noreply.github.com">
+                AhriEva@users.noreply.github.com
+              </a>
+            </li>
+            <li>
+              <span>GitHub</span>
+              <a href="https://github.com/AhriEva" target="_blank" rel="noreferrer">
+                github.com/AhriEva
+              </a>
+            </li>
+            <li>
+              <span>Telegram</span>
+              <a
+                href="https://t.me/share/url?url=https%3A%2F%2Fgithub.com%2FAhriEva&amp;text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C%20%D0%9C%D0%B0%D1%82%D0%B2%D0%B5%D0%B9!"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Поделиться профилем
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 Матвей Потапов. Создано во время практики.</p>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
